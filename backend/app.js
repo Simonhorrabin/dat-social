@@ -2,7 +2,11 @@ import express from 'express';
 import mongoose from 'mongoose';
 
 const app = express();
+const router = express.Router();
 
+router.get("/", )
+
+// app.use("/api/user", router);
 // Define your route handler function
 const apiHandler = (req, res, next) => {
     res.send("Hello World");
